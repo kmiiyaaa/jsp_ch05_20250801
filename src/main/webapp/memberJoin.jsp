@@ -16,7 +16,8 @@
 		비밀번호 확인 : <input type="password" name="pw2"><br><br>
 		이름 : <input type="text" name=name><br><br>
 		이메일 : <input type="text" name=email><br><br>
-		주소 : <input type="text" name=addr><br><br>
+		주소 : <input type="text" name=addr><br><br>s
+		나이 : <input type="text" name=age><br><br>
 		<input type="button" value="회원가입" onclick="joinCheck()">
 	</form>
 
