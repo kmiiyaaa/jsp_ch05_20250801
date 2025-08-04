@@ -15,7 +15,7 @@
 	</script>
 </head>
 <body>
-	<form action="adminLoginOK.jsp" name="logim" onsubmit="return_error()"> 
+	<form action="adminLoginOK.jsp" name="logim" onsubmit="return error()"> 
 		아이디 : <input type="text" name="loginId"><br><br>     <%-- 입력한 아이디 비밀번호 값이 LoginOk로 넘어간다 --%>
 		비밀번호 : <input type="password" name="loginPw"><br><br>
 		<input type = "submit" value="로그인">

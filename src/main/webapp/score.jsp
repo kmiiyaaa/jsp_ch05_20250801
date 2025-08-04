@@ -17,7 +17,7 @@
 </head>
 <body>
 
-	<form action="scoreOK.jsp" name = "score" method="post" onsubmit="return checkFun()">
+	<form action="scoreOK.jsp" name = "score" onsubmit="return checkFun()">
 		국어 : <input type="text" name="kor"><br>
 		영어 : <input type="text" name="eng"><br>
 		수학 : <input type="text" name="math"><br>

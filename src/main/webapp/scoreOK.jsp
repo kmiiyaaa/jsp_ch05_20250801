@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<%
+<% // request - 내장객체 , 여기로 한번에 묶여서 서버로 입력정보 넘어간다
 	request.setCharacterEncoding("UTF-8");
 
 	int korScore = Integer.parseInt(request.getParameter("kor"));
