@@ -10,14 +10,14 @@
 <body>
 	<h2>회원 가입</h2>
 	<hr>
-	<form action="memberJoinOk" name=join method="post">
+	<form action="memberJoinOk.jsp" name="join" method="post">
 		아이디 : <input type="text" name="id"><br><br>
 		비밀번호 : <input type="password" name="pw1"><br><br>
 		비밀번호 확인 : <input type="password" name="pw2"><br><br>
 		이름 : <input type="text" name=name><br><br>
 		이메일 : <input type="text" name=email><br><br>
 		주소 : <input type="text" name=addr><br><br>
-		<input type="button" value="회원가입">
+		<input type="button" value="회원가입" onclick="joinCheck()">
 	</form>
 
 </body>
